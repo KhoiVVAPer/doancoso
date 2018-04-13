@@ -3,6 +3,97 @@
     margin:0;
 }
 
+hr {margin-top: 10px;}
+
+.follow-us a {
+    border-radius: 50%;
+    font-size: 26px;
+    color: white;
+    background: rgba(74, 66, 66, 0.44);
+    display: inline-block;
+    width: 49px;
+    margin-right: 7px;
+}
+
+.contact p {
+    display: inline-table;
+    padding-left: 19px;
+    padding-top: 15px;
+}
+
+.contact-wrapper {
+    color: #a5a098fa;
+    font-size: 16px;
+}
+
+h3.title {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.footer-logo img {
+    width: 400px;
+    margin-top: 12px;
+    margin-left: 1px;
+    background: #fffcfc;
+}
+
+.follow-us {
+    width: 23%;
+    height: 25%;
+    float: right;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.copyright {
+    width: 45%;
+    height: 100%;
+    float: left;
+    font-size: 15px;
+    color: white;
+    padding-top: 5px;
+}
+
+.contact-info {
+    width: 21%;
+    text-align: left;
+    float: right;
+    height: 78%;
+    margin-top: 21px;
+}
+
+.footer-logo {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 47%;
+}
+
+.footer-top {
+    width: 100%;
+    height: 47%;
+}
+
+.footer-container {
+    height: 100%;
+    width: 83%;
+    margin: auto;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 49px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.95);
+    font-family: 'Arsenal';
+}
+
 span.product-old-price {
     padding-left: 2px;
     font-size: 14px;
@@ -45,11 +136,12 @@ h5.product-name {
 
 .list-item li {
     display: inline-block;
-    width: 195px;
+    width: 192px;
     height: 250px;
     border: 1px solid rgba(12, 11, 11, 0.05);
     border-top: none;
     border-left: none;
+    float: left;
 }
 
 ul.list-item {
@@ -84,8 +176,8 @@ div.tab-panel.active {
 .product-feature {
     width: 83%;
     height: 500px;
-    float: right;
     border: 1px solid rgba(51, 51, 51, 0.26);
+    margin-left: 200px;
     border-top: none;
     border-right: none;
     border-bottom: none;
@@ -188,8 +280,7 @@ ul.list-nav {
 }
 
 .contet-wrapper {
-    width: 89%;
-    min-height: 100px;
+    width: 87%;
     margin: auto;
 }
 
@@ -197,7 +288,6 @@ ul.list-nav {
     width: 100%;
     background: white;
     margin-top: 43px;
-    min-height: 100px;
 }
 
 
@@ -386,7 +476,7 @@ form.search {height: 100%;}
 
 .logo-section a,.logo-section img {
     width: 100%;
-    height: 100%;
+    height: 96%;
 }
 
 .wrap-header {
@@ -482,10 +572,10 @@ body,html{
     opacity: 1!important;
 }
 .logo-section {
-    width: 20%;
-    height: 100%;
+    width: 22%;
+    height: 86%;
     display: inline-block;
-    left: 0;
+    left: 59px;
     position: absolute;
 }
 .page-wrapper{
